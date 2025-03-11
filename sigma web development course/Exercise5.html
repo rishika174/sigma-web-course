@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 5</title>
+    <style>
+        html,
+        body {
+            height: 100%;
+            /* Set height of html and body to 100% */
+            margin: 0;
+            /* Remove default margin */
+            background-color: black;
+        }
+
+        .box1 {
+            position: sticky;
+            width: 100%;
+            height: 30px;
+            background-color: rgb(242, 96, 120);
+        }
+
+        .box2 {
+            width: 95%;
+            height: 40%;
+            /* This refers to 50% of body height */
+            margin: 10px auto;
+            background-color: green;
+            text-align: center;
+            padding: 20px;
+            /* Horizontally center */
+            line-height: 200px;
+            /* Equal to height for vertical centering */
+        }
+
+        .box3 {
+            display: inline-block;
+            /* Display boxes side by side */
+            background-color: coral;
+            height: 200px;
+            /* Set fixed height */
+            width: 45%;
+            /* Set width to 45% */
+            margin: 10px;
+            /* Add margin to create gaps */
+            vertical-align: middle;
+            /* Align them vertically */
+        }
+
+        .box4 {
+            border: 2px solid white;
+            width: 90%;
+            height: 20%;
+            border-radius: 20%;
+            margin: 10px auto;
+            text-align: center;
+            color: white;
+            font-size: 30px;
+        }
+
+        .circle {
+            width: 70px;
+            height: 70px;
+            background-color: coral;
+            border-radius: 50%;
+            /* Make the shape circular */
+            position: fixed;
+            /* Fix the position relative to the viewport */
+            bottom: 50px;
+            /* 50px from the bottom, adjust as needed */
+            right: 20px;
+            /* 20px from the right side of the viewport */
+        }
+
+        .box5 {
+            width: 100%;
+            height: 30px;
+            position: fixed;
+            /* Make the footer fixed at the bottom */
+            bottom: 0;
+            background-color: rgb(112, 104, 106);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box1"></div>
+    <div class="box2">
+        <div class="box3"></div>
+        <div class="box3"></div>
+    </div>
+    <div class="box4"> Welcome to my channel </div>
+    <div class="circle"></div>
+    <div class="box5"></div>
+
+</body>
+
+</html>

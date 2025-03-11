@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Name Generator</title>
+</head>
+<body>
+    <script>
+        let random = Math.random();
+        let first, second, third;
+
+        // Randomly assign an adjective
+        if (random < 0.33) {
+            first = "Crazy";
+        } else if (random >= 0.33 && random < 0.66) {
+            first = "Amazing";
+        } else {
+            first = "Fire";
+        }
+
+        // Generate new random value for shop name
+        random = Math.random();
+        if (random < 0.33) {
+            second = "Engine";
+        } else if (random >= 0.33 && random < 0.66) {
+            second = "Foods";
+        } else {
+            second = "Garments";
+        }
+
+        // Generate new random value for additional word
+        random = Math.random();
+        if (random < 0.33) {
+            third = "Bros";
+        } else if (random >= 0.33 && random < 0.66) {
+            third = "Limited";
+        } else {
+            third = "Hub";
+        }
+
+        // Print the generated business name using template literals
+        console.log(`${first} ${second} ${third}`);
+    </script>
+</body>
+</html>

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website clone</title>
+    <style>
+        .logo {}
+
+        .logo img {
+            width: 164px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            font-family: "Segoe UI";
+        }
+
+        .hn ul {
+            display: flex;
+            gap: 34px;
+        }
+
+        .hn ul li {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        .hn ul li span {
+            padding: 0 5px;
+            
+        }
+
+        .cssgrid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            /* 3 columns */
+            gap: 10px;
+            margin-top: 20px;
+            padding: 40px;
+            max-width: 1200px;
+            /* Optional: limit max width for large screens */
+            margin: 0 auto;
+            /* Center the grid */
+        }
+
+        .item {
+            background-color: rgba(220, 220, 220, 0.422);
+            padding: 10px;
+            text-align: center;
+            max-width: 53vw;
+            text-align: center;
+        }
+
+        a {
+            background-color: rgb(28, 143, 28);
+            color: white;
+            border: 1px solid green;
+            padding: 4px;
+            border-radius: 9px;
+            align-items: center;
+        }
+
+        @media screen and (max-width: 1145px) {
+            .cssgrid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="https://www.ultraedit.com/wp-content/uploads/2023/01/UE-Logo-1.webp" alt="">
+            </div>
+            <div class="hn">
+                <ul>
+                    <li><span>Products </span><svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M6 9L11.2929 14.2929C11.6262 14.6262 11.7929 14.7929 12 14.7929C12.2071 14.7929 12.3738 14.6262 12.7071 14.2929L18 9"
+                                stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </li>
+                    <li><span>Pricing </span><svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M6 9L11.2929 14.2929C11.6262 14.6262 11.7929 14.7929 12 14.7929C12.2071 14.7929 12.3738 14.6262 12.7071 14.2929L18 9"
+                                stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </li>
+                    <li><span>Resources </span><svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M6 9L11.2929 14.2929C11.6262 14.6262 11.7929 14.7929 12 14.7929C12.2071 14.7929 12.3738 14.6262 12.7071 14.2929L18 9"
+                                stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </li>
+                    <li><span>About Us </span><svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M6 9L11.2929 14.2929C11.6262 14.6262 11.7929 14.7929 12 14.7929C12.2071 14.7929 12.3738 14.6262 12.7071 14.2929L18 9"
+                                stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </li>
+                    <li>
+                        <img src="https://www.ultraedit.com/wp-content/themes/Divi_Child/img/Lang.png" alt="">
+
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="cssgrid">
+        <div class="item">
+            <h2>English</h2>
+            <br>
+            <a href="ue_english_64.exe">Download 64bit</a>
+            <p>SHA256</p>
+
+        </div>
+        <div class="item">
+            <h2>Deutsch</h2>
+            <p>German</p>
+            <a href="ue_english_64.exe">Download 64bit</a>
+            <p>SHA256</p>
+        </div>
+        <div class="item">
+            <h2>Italiano</h2>
+            <p>Italian</p>
+            <a href="ue_english_64.exe">Download 64bit</a>
+            <p>SHA256</p>
+        </div>
+        <div class="item">
+            <h2>Español</h2>
+            <p>Spanish</p>
+            <a href="ue_english_64.exe">Download 64bit</a>
+            <p>SHA256</p>
+        </div>
+        <div class="item">
+            <h2>français</h2>
+            <p>French</p>
+            <a href="ue_english_64.exe">Download 64bit</a>
+            <p>SHA256</p>
+        </div>
+        <div class="item">
+            <h2>Português brasileiro</h2>
+            <p>Brazilian Portuguese</p>
+            <a href="ue_english_64.exe">Download 64bit</a>
+            <p>SHA256</p>
+        </div>
+        <div class="item">
+            <h2>日本</h2>
+            <p>Japanese</p>
+            <a href="ue_english_64.exe">Download 64bit</a>
+            <p>SHA256</p>
+        </div>
+        <div class="item">
+            <h2>한국어</h2>
+            <p>Korean</p>
+            <a href="ue_english_64.exe">Download 64bit</a>
+            <p>SHA256</p>
+        </div>
+        <div class="item">
+            <h2>中国</h2>
+            <p>Chinese</p>
+            <a href="ue_english_64.exe">Download 64bit</a>
+            <p>SHA256</p>
+        </div>
+        <div class="item">
+            <h2>中國</h2>
+            <p>Traditional Chinese</p>
+            <a href="ue_english_64.exe">Download 64bit</a>
+            <p>SHA256</p>
+        </div>
+    </div>
+</body>
+
+</html>

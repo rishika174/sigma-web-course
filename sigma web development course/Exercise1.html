@@ -1,0 +1,345 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Image Map</title>
+</head>
+<style>
+    .styled-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: border-color 0.3s ease, transform 0.3s ease;
+}
+
+input:hover {
+    border-color: #555;
+}
+
+input:focus {
+    border-color: #007bff;
+    transform: scale(1.05);
+    outline: none;
+}
+
+button {
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(1);
+}
+
+</style>
+
+<style>
+    table {
+        border: 1px solid rgb(227, 64, 64);
+        border-collapse: collapse;
+    }
+    th,td {
+        border: 1px solid rgb(203, 36, 36);
+        border-collapse: collapse;
+    }
+    tbody>tr:nth-child(3n+1) {
+        background-color: pink;
+    }
+    tbody>tr:nth-child(3n) {
+        background-color: yellow;
+    }
+    tbody>tr:nth-child(3n+2) {
+        background-color: rgb(66, 196, 101);
+    }
+    thead {
+        background-color: gray;
+    }
+    tfoot {
+        background-color: green;
+    }
+    
+</style>
+
+<body>
+   <h2>World Map with Clickable Regions</h2>
+    <img src="https://static.vecteezy.com/system/resources/previews/020/833/849/non_2x/world-map-with-country-names-free-vector.jpg" alt="World Map" usemap="#worldmap" style="width: 600px;">
+    <map name="worldmap">
+        <area shape="rect" coords="50,50,150,150" href="usa.html" alt="USA">
+        <area shape="circle" coords="300,300,50" href="australia.html" alt="Australia">
+        <area shape="poly" coords="400,200,450,250,500,200,450,150" href="india.html" alt="India">
+    </map>
+</body>
+</html> 
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested Table Example</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 50%;
+            margin: 20px auto;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .nested-table td {
+            padding: 5px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <h2 style="text-align: center;">Nested Table Example</h2>
+    <table>
+       
+        <tr>
+            <th>Header 1</th>
+            <th>Header 2</th>
+            <th>Header 3</th>
+            <th>Header 4</th>
+        </tr>
+        <tr>
+            <td>Row 1, Col 1</td>
+            <td>Row 1, Col 2</td>
+            <td>Row 1, Col 3</td>
+            <td>Row 1, Col 4</td>
+        </tr>
+        <tr>
+            <td>Row 2, Col 1</td>
+            <td>
+               
+                <table class="nested-table">
+                    <tr>
+                        <td>Nested 1,1</td>
+                        <td>Nested 1,2</td>
+                    </tr>
+                    <tr>
+                        <td>Nested 2,1</td>
+                        <td>Nested 2,2</td>
+                    </tr>
+                </table>
+            </td>
+            <td>Row 2, Col 3</td>
+            <td>Row 2, Col 4</td>
+        </tr>
+        <tr>
+            <td>Row 3, Col 1</td>
+            <td>Row 3, Col 2</td>
+            <td>Row 3, Col 3</td>
+            <td>Row 3, Col 4</td>
+        </tr>
+    </table> 
+    <table>
+        <tr>
+            <th rowspan="2" colspan="2">hello world </th>
+            <th colspan="2"> Used</th>
+            <th rowspan="2"> ka haal</th>
+        </tr>
+        <tr>
+            <td>limit</td>
+            <td>adjust</td>
+        </tr>
+        <tr>
+            <td rowspan="2">alternator</td>
+            <td>model</td>
+            <td>10mm</td>
+            <td>5-7mm</td>
+            <td rowspan="2">5-7mm</td>
+        </tr>
+        <tr><td>model with ac</td>
+        <td>12mm</td>
+        <td>6-8mm</td>
+        </tr>
+        <tr>
+            <td colspan="2">power </td>
+            <td>12.5mm</td>
+            <td>7.9mm</td>
+            <td>6-8mm</td>
+        </tr>
+        
+    </table> 
+    <table>
+        <thead>
+            <tr>
+                <td>table1</td>
+                <td>table2</td>
+                <td>table3</td>
+                <td>table4</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>hj</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>hj</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>hb</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr> 
+                <td>gh</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>dgf</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>hg</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>hhj</td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tfoot>
+    </table> 
+    <form class="styled-form">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name">
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email">
+        </div>
+        <div class="form-group">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password">
+        </div>
+        <div class="form-group">
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+    
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Focus Example</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    /* Basic styling for input */
+    input {
+        padding: 10px;
+        border: 2px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+        width: 200px;
+        margin-top: 10px;
+        outline:invert;
+    }
+
+    /* Styling when the input field is focused */
+    input:hover {
+        background-color: gray;
+    }
+    input:focus {
+        
+        background-color: #2c84d1;
+        /* Light blue background */
+       
+    }
+</style>
+
+<body>
+    <h2>Focus Example</h2>
+    <form>
+        <label for="username">Username:</label>
+        <input type="text" id="username" placeholder="Enter your username">
+    </form>
+</body>
+
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        .box {
+            
+            height: 200px;
+            width: 200px;
+            margin: 30px;
+        }
+
+    </style>
+</head>
+<!-- Rishika Kumari 2341011287 -->
+<body>
+    <div class="box" style="outline: 13px solid red;">
+        box1
+    </div>
+    <div class="box" style="border: 13px solid green;">box2</div>
+</body>
+</html>
